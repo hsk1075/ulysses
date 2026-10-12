@@ -10,7 +10,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.7 "IBM Plex 
 .L{--c:var(--l)}.H{--c:var(--h)}
 [hidden]{display:none!important}
 
-/* ---------- 홈 ---------- */
+/* ---------- �� ---------- */
 #home{position:fixed;inset:0;overflow:hidden}
 .logo{position:absolute;left:50%;top:50%;width:min(34vmin,290px);aspect-ratio:1;transform:translate(-50%,-50%)}
 .logo img{width:100%;height:100%;display:block}
@@ -19,7 +19,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.7 "IBM Plex 
 .orb:focus-visible{outline:1px solid var(--ink);outline-offset:3px}
 @media (max-width:640px){.logo{width:40vw}}
 
-/* ---------- 트랙 ---------- */
+/* ---------- �몃옓 ---------- */
 :root{--serif:"Adobe Myungjo Std","Adobe Myungjo Std M","AdobeMyungjoStd-Medium","Noto Serif KR","Nanum Myeongjo",serif;--g:4px}
 #track{min-height:100%;font-family:var(--serif);font-weight:300}
 .top{max-width:1400px;margin:0 auto;padding:18px 6vw 10px;display:flex;align-items:center}
@@ -35,7 +35,7 @@ main{max-width:1400px;margin:0 auto;padding:30px 0 80px}
 .lab{position:absolute;left:8px;bottom:6px;font-size:11px;color:#fff;text-shadow:0 0 5px rgba(0,0,0,.7);letter-spacing:.02em;pointer-events:none}
 .tip{padding:0 6vw;color:var(--mute);font-size:12px}
 
-/* ---------- 뷰어 ---------- */
+/* ---------- 酉곗뼱 ---------- */
 #vw{position:fixed;inset:0;background:rgba(8,12,14,.96);color:#eee;display:none;z-index:20;flex-direction:column;padding:max(16px,env(safe-area-inset-top,0px)) 16px max(16px,env(safe-area-inset-bottom,0px));font-family:var(--serif);font-weight:300}
 #vw.on{display:flex}
 .vtop{display:flex;justify-content:space-between;align-items:center;gap:12px}
