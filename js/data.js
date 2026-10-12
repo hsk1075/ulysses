@@ -1,11 +1,20 @@
-/* ===== 사진 데이터 (여기만 고치면 됩니다) =====
-   from : 트랙을 시작하는 사람 ("L" 왼손 / "H" 홍양). 홀수 번째 사진은 시작한 사람, 짝수 번째는 상대방.
-   photos : 사진 파일 경로를 찍은 순서대로. 비워 두면 빈 칸으로 표시됩니다.
-   captions : (선택) photos 와 같은 순서의 설명.
-   예) photos/l1/01.jpg 처럼 photos 폴더 안에 트랙별 폴더를 만들어 넣으세요. */
 const RAW = [
   {from:"L", n:1, photos:[
-    // "photos/l1/01.jpg", "photos/l1/02.jpg",
+    "photos/left(1)/1.김필립_1_서울_25.12.21.jpg",
+    "photos/left(1)/2.홍서경_1_리즈_260130.jpg",
+    "photos/left(1)/3.김필립_1_서울_260208.jpg",
+    "photos/left(1)/4.홍서경_1_노팅엄_260214.jpg",
+    "photos/left(1)/5.김필립_1_서울_260221.jpg",
+    "photos/left(1)/6.홍서경_1_리즈_260228.jpg",
+    "photos/left(1)/7.김필립_1_상갈_260307.jpg",
+    "photos/left(1)/8.홍서경_1_리즈_260314.jpg",
+    "photos/left(1)/9.김필립_1_서울_260316.jpg",
+    "photos/left(1)/10.홍서경_1_빈_260402.jpg",
+    "photos/left(1)/11.김필립_1_서울_260405.jpg",
+    "photos/left(1)/12.홍서경_1_바르셀로나_260411.jpg",
+    "photos/left(1)/13.김필립_1_흥덕_260419.jpg",
+    "photos/left(1)/14.홍서경_1_리즈_260503.jpg",
+    "photos/left(1)/15.김필립_1_서현_260516.jpg"
   ]},
   {from:"L", n:2, photos:[]},
   {from:"L", n:3, photos:[]},
